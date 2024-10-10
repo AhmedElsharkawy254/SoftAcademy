@@ -1,25 +1,27 @@
 import React from "react";
-import aboutImage from "../img/WhatsApp Image 2024-10-07 at 02.39.51_c98a6908.jpg"; // Update the path according to your project
+import aboutVideo from "../img/WhatsApp Video 2024-10-09 at 19.06.30_b0c5776d.mp4"; // Update the path according to your project
 import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "./About.module.css";
 
 const About = () => {
-  // WhatsApp link with your number
-  const whatsappLink = "https://wa.me/201281440738"; // 20 is the country code for Egypt and the rest is the phone number
+  const whatsappLink = "https://wa.me/201281440738"; // WhatsApp link
 
   return (
     <section className="py-3 py-md-5">
       <div className="container">
         <div className="row gy-3 gy-md-4 gy-lg-0 align-items-lg-center">
           <div className="col-12 col-lg-6">
-            <img
+            <video
               className={`img-fluid ${styles.logo}`}
               loading="lazy"
-              width={330}
-              height={250}
-              src={aboutImage}
-              alt="About 2"
-            />
+              width={530}
+              height={650}
+              controls // Add controls to allow play/pause
+              src={aboutVideo} // Use your video source here
+              alt="About Video"
+            >
+              Your browser does not support the video tag.
+            </video>
           </div>
           <div className="col-12 col-lg-6">
             <div className="row justify-content-xl-center">
