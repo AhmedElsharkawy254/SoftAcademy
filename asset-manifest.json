@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SoftAcademy/static/css/main.39b818e5.css",
-    "main.js": "/SoftAcademy/static/js/main.eb941d9b.js",
+    "main.js": "/SoftAcademy/static/js/main.2a9f1615.js",
     "static/js/453.09fa0785.chunk.js": "/SoftAcademy/static/js/453.09fa0785.chunk.js",
     "static/media/WhatsApp Video 2024-10-09 at 19.06.30_b0c5776d.mp4": "/SoftAcademy/static/media/WhatsApp Video 2024-10-09 at 19.06.30_b0c5776d.ce570c85d595f51e2f44.mp4",
     "static/media/NLP.png": "/SoftAcademy/static/media/NLP.30c98eb5a2cec9f65bcc.png",
@@ -25,11 +25,11 @@
     "static/media/fa-v4compatibility.woff2": "/SoftAcademy/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/SoftAcademy/index.html",
     "main.39b818e5.css.map": "/SoftAcademy/static/css/main.39b818e5.css.map",
-    "main.eb941d9b.js.map": "/SoftAcademy/static/js/main.eb941d9b.js.map",
+    "main.2a9f1615.js.map": "/SoftAcademy/static/js/main.2a9f1615.js.map",
     "453.09fa0785.chunk.js.map": "/SoftAcademy/static/js/453.09fa0785.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.39b818e5.css",
-    "static/js/main.eb941d9b.js"
+    "static/js/main.2a9f1615.js"
   ]
 }
