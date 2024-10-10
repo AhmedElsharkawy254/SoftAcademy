@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/SoftAcademy/static/css/main.af6a67a3.css",
+    "main.css": "/SoftAcademy/static/css/main.91839de5.css",
     "main.js": "/SoftAcademy/static/js/main.698c9d29.js",
     "static/js/453.09fa0785.chunk.js": "/SoftAcademy/static/js/453.09fa0785.chunk.js",
     "static/media/NLP.png": "/SoftAcademy/static/media/NLP.30c98eb5a2cec9f65bcc.png",
@@ -24,12 +24,12 @@
     "static/media/fa-v4compatibility.ttf": "/SoftAcademy/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
     "static/media/fa-v4compatibility.woff2": "/SoftAcademy/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/SoftAcademy/index.html",
-    "main.af6a67a3.css.map": "/SoftAcademy/static/css/main.af6a67a3.css.map",
+    "main.91839de5.css.map": "/SoftAcademy/static/css/main.91839de5.css.map",
     "main.698c9d29.js.map": "/SoftAcademy/static/js/main.698c9d29.js.map",
     "453.09fa0785.chunk.js.map": "/SoftAcademy/static/js/453.09fa0785.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.af6a67a3.css",
+    "static/css/main.91839de5.css",
     "static/js/main.698c9d29.js"
   ]
 }
