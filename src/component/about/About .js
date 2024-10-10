@@ -17,6 +17,8 @@ const About = () => {
               width={530}
               height={650}
               controls // Add controls to allow play/pause
+              autoPlay
+              muted // Mute the video
               src={aboutVideo} // Use your video source here
               alt="About Video"
             >
