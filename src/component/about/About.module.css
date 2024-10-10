@@ -1,0 +1,15 @@
+.logo{
+  border: 3px solid rgba(255, 215, 0, 0.7); /* Golden border */
+  box-shadow: 0 10px 10px rgba(255, 215, 0, 0.7); /* Gold shadow */
+
+  border-radius: 70px 20px;
+  color: rgba(255, 215, 0, 0.7);
+  transition: transform 0.3s ease-in-out; /* Smooth scale transition */
+z-index: 0;
+}
+p{
+color:rgba(255, 215, 0, 0.7) ;  
+}
+.container{
+  color: rgba(255, 215, 0, 0.7);
+}

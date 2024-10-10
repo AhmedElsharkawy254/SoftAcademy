@@ -1,0 +1,40 @@
+.all{
+    width: 100%;  
+    
+}
+.footer {
+    background-color: black; /* Black background */
+    color: gold; /* Gold text */
+    border: 3px solid gold; /* Golden border */
+    border-radius: 10px 70px;
+    width: 100%;  
+    height: 100%;  
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    border-top: none;
+    box-shadow: 0 20px 10px rgba(255, 215, 0, 0.7); /* Gold shadow */
+
+}
+.logo{
+    width: 200px;
+    height: 200px ;
+}
+  
+  .heading {
+    color: gold;
+  }
+  
+  .footer p, 
+  .footer a {
+    color: gold; /* Gold color for text and links */
+  }
+  
+  .footer a:hover {
+    color: #ffd700; /* Brighter gold on hover */
+  }
+  
+  .copyright {
+    color: gold;
+  }
+  
