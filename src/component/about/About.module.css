@@ -30,8 +30,8 @@ p {
 /* Responsive adjustments for mobile view */
 @media (max-width: 768px) {
   .logo {
-    width: 80px; /* Adjust logo size for mobile */
-    height: 80px;
+    width: 450px; /* Adjust logo size for mobile */
+    height: 250px;
     margin: 0 auto; /* Center logo on mobile */
   }
 

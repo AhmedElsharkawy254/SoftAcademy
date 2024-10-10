@@ -1,8 +1,12 @@
 import React from "react";
 import aboutImage from "../img/WhatsApp Image 2024-10-07 at 02.39.51_c98a6908.jpg"; // Update the path according to your project
 import "bootstrap/dist/css/bootstrap.min.css";
-import styles from "./About.module.css"
+import styles from "./About.module.css";
+
 const About = () => {
+  // WhatsApp link with your number
+  const whatsappLink = "https://wa.me/201281440738"; // 20 is the country code for Egypt and the rest is the phone number
+
   return (
     <section className="py-3 py-md-5">
       <div className="container">
@@ -10,9 +14,9 @@ const About = () => {
           <div className="col-12 col-lg-6">
             <img
               className={`img-fluid ${styles.logo}`}
-                          loading="lazy"
-                          width={330}
-                          height={250}
+              loading="lazy"
+              width={330}
+              height={250}
               src={aboutImage}
               alt="About 2"
             />
@@ -20,8 +24,8 @@ const About = () => {
           <div className="col-12 col-lg-6">
             <div className="row justify-content-xl-center">
               <div className="col-12 col-xl-10">
-                <h2 >Why Choose Us?</h2>
-                <p className="lead fs-4  mb-xl-5">
+                <h2>Why Choose Us?</h2>
+                <p className="lead fs-4 mb-xl-5">
                   With years of experience and deep industry knowledge, we have
                   a proven track record of success and are constantly pushing
                   ourselves to stay ahead of the curve.
@@ -47,7 +51,7 @@ const About = () => {
                 </div>
 
                 <div className="d-flex align-items-center mb-3">
-                  <div className="me-3 ">
+                  <div className="me-3">
                     <svg
                       width="28"
                       height="28"
@@ -59,14 +63,12 @@ const About = () => {
                     </svg>
                   </div>
                   <div>
-                    <p className="fs-5 m-0">
-                      We deliver services beyond expectations.
-                    </p>
+                    <p className="fs-5 m-0">We deliver services beyond expectations.</p>
                   </div>
                 </div>
 
                 <div className="d-flex align-items-center mb-4 mb-xl-5">
-                  <div className="me-3 ">
+                  <div className="me-3">
                     <svg
                       width="28"
                       height="28"
@@ -82,12 +84,14 @@ const About = () => {
                   </div>
                 </div>
 
-                <button
-                  type="button"
+                <a
+                  href={whatsappLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="btn bsb-btn-xl btn-outline-primary rounded-pill"
                 >
                   Connect Now
-                </button>
+                </a>
               </div>
             </div>
           </div>
