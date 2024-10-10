@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/SoftAcademy/static/css/main.75cdfcf1.css",
+    "main.js": "/SoftAcademy/static/js/main.698c9d29.js",
+    "static/js/453.09fa0785.chunk.js": "/SoftAcademy/static/js/453.09fa0785.chunk.js",
+    "static/media/NLP.png": "/SoftAcademy/static/media/NLP.30c98eb5a2cec9f65bcc.png",
+    "static/media/Redux.jpg": "/SoftAcademy/static/media/Redux.eb67ae53701b654351ca.jpg",
+    "static/media/fa-solid-900.ttf": "/SoftAcademy/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/fa-brands-400.ttf": "/SoftAcademy/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/Machine learng.jpeg": "/SoftAcademy/static/media/Machine learng.fc1a53ea5f2551cc5104.jpeg",
+    "static/media/fa-solid-900.woff2": "/SoftAcademy/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/Blue_Yellow_Elegant_Professional_University_Logo-removebg-preview (1).png": "/SoftAcademy/static/media/Blue_Yellow_Elegant_Professional_University_Logo-removebg-preview (1).20c269b19013f73230e9.png",
+    "static/media/Deaplearning.jpeg": "/SoftAcademy/static/media/Deaplearning.b068a958f421b09eaf4e.jpeg",
+    "static/media/fa-brands-400.woff2": "/SoftAcademy/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/python.jpg": "/SoftAcademy/static/media/python.23e594e738ba2f779a84.jpg",
+    "static/media/fa-regular-400.ttf": "/SoftAcademy/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/css.jpg": "/SoftAcademy/static/media/css.2f7aed01e8540549e11a.jpg",
+    "static/media/django.png": "/SoftAcademy/static/media/django.d7ca17feb4177dbde191.png",
+    "static/media/WhatsApp Image 2024-10-07 at 02.39.51_c98a6908.jpg": "/SoftAcademy/static/media/WhatsApp Image 2024-10-07 at 02.39.51_c98a6908.4f335680ed43c4fc2a3b.jpg",
+    "static/media/fa-regular-400.woff2": "/SoftAcademy/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/_scaled_cover.jpg": "/SoftAcademy/static/media/636a0431e4b00641d2596354_scaled_cover.f5c65c89e83134e28e18.jpg",
+    "static/media/glossy-standard-1-1-html-logo.jpg": "/SoftAcademy/static/media/glossy-standard-1-1-html-logo.c013fe601025648658ce.jpg",
+    "static/media/JIyBtKW.png": "/SoftAcademy/static/media/JIyBtKW.24b1fb8b0e329b24876e.png",
+    "static/media/fa-v4compatibility.ttf": "/SoftAcademy/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/SoftAcademy/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "index.html": "/SoftAcademy/index.html",
+    "main.75cdfcf1.css.map": "/SoftAcademy/static/css/main.75cdfcf1.css.map",
+    "main.698c9d29.js.map": "/SoftAcademy/static/js/main.698c9d29.js.map",
+    "453.09fa0785.chunk.js.map": "/SoftAcademy/static/js/453.09fa0785.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75cdfcf1.css",
+    "static/js/main.698c9d29.js"
+  ]
+}
