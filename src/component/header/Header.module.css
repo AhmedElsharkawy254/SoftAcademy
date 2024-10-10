@@ -1,83 +1,116 @@
 .customNavbar {
-    padding-top: 0;
-    background-color: black;
-    box-shadow: 0 10px 7px rgba(255, 215, 0, 0.7); /* Gold shadow */
-    height:auto;
-    width: 100%;
-    /* display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));;
-    grid-template-rows: 1fr;
-    gap: 150px; */
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center; /* Center items vertically */
-    border-radius: 100px 50px;
-    position: fixed;
-    z-index: 999; /* Ensure it stays on top */  
+  padding-top: 0;
+  background-color: black;
+  box-shadow: 0 10px 7px rgba(255, 215, 0, 0.7); /* Gold shadow */
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center; /* Center items vertically */
+  border-radius: 100px 50px;
+  position: fixed;
+  z-index: 999; /* Ensure it stays on top */
+  overflow: hidden;
+}
 
+.LogoAndText {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.linkes {
+  margin-right: 100px;
+}
+
+.customText {
+  color: rgba(255, 215, 0, 0.7);
+  font-family: "Georgia", serif;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: rgba(255, 215, 0, 0.7);
+}
+
+.linkes a:hover {
+  color: rgba(255, 215, 0, 1); /* Make text fully visible on hover */
+  border-radius: 50px;
+  width: 80px;
+  box-shadow: 0 10px 7px rgba(255, 215, 0, 0.9); /* Gold shadow */
+}
+
+.navbar-collapse {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end; /* Align to the right */
+  padding-right: 90px;
+}
+
+.linkes a {
+  margin-right: 20px;
+  color: rgba(255, 215, 0, 0.7);
+  font-family: "Georgia", serif;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 30px;
+}
+
+.customInput {
+  background-color: black; /* Black background */
+  color: gold; /* Gold text color */
+  border: 2px solid gold; /* Golden border */
+  border-radius: 100px;
+  width: 100%; /* Width of input */
+}
+
+.customInput::placeholder {
+  color: gold; /* Gold placeholder text color */
+}
+
+.total {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Responsive adjustments for mobile view */
+@media (max-width: 768px) {
+  .customNavbar {
+    flex-direction: column; /* Stack items vertically on mobile */
+    padding: 20px 0; /* Add padding for mobile */
   }
-  
-  .LogoAndText {
-    display: flex;
-    align-items: center;
-    margin-left: 10px;
-  }
-  
+
   .logo {
-    width: 100px;
-    height: 100px;
-  }
-  .linkes{
-    margin-right: 100px;
-  }
-  .customText {
-    color: rgba(255, 215, 0, 0.7);
-    font-family: "Georgia", serif; 
-    font-weight: bold;
-  }
-  
-  .nav-link {
-    color: rgba(255, 215, 0, 0.7);
-  }
-  
-  .linkes a:hover {
-    color: rgba(255, 215, 0, 1); /* Make text fully visible on hover */
-    border-radius: 50px;
     width: 80px;
-    box-shadow: 0 10px 7px rgba(255, 215, 0, 0.9); /* Gold shadow */
+    height: 80px; /* Adjust logo size for mobile */
   }
-  
+
+  .linkes {
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%; /* Full width on mobile */
+    padding-bottom: 10px;
+  }
+
+  .linkes a {
+    padding: 15px;
+    margin-right: 10px;
+  }
+
   .navbar-collapse {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end; /* Align to the right */
-    padding-right: 90px;
-  
-  }
-  
-  .linkes a{
-    margin-right: 20px;
-    color: rgba(255, 215, 0, 0.7);
-    font-family: "Georgia", serif; 
-    font-weight: bold;
-    text-decoration: none;
-    padding: 30px;
-  }
-  .customInput {
-    background-color: black; /* Black background */
-    color: gold; /* Gold text color */
-    border: 2px solid gold; /* Golden border */
-    border-radius: 100px;
-    width: 100%; /* Width of input */
-    
-  }
-  
-  .customInput::placeholder {
-    color: gold; /* Gold placeholder text color */
-  }
-  .total{
-    display: flex;
     flex-direction: column;
+    padding-right: 0;
   }
-  
+
+  .customInput {
+    width: 80%; /* Narrower input for mobile */
+    margin: 10px auto; /* Center the input on mobile */
+  }
+}
